@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>cv</title>
-        <link rel="stylesheet" href="style.css"/>
-        <link rel="icon" href="assets/favicon.ico"/>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header class="header">
-            <div class="first container">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="first container">
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-item">
@@ -35,22 +39,21 @@
                         <a href="#education" class="nav-link">Education</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#languages" class="nav-link">Languages</a>
+                        <a href="#projects" class="nav-link">Projects</a>
                     </li>
+                    <li class="nav-item">
+                        <a href="#languages" class="nav-link">Languages</a>
+                    </li>           
                 </ul>
             </nav>
-            </div>
-        </header>
-        <main class="main">
-            <div class="second container">
-                <section class="introduction-place">
+        </div>
+    </header>
+    <main class="main">
+        <div class="second container">
+            <section class="introduction-place">
                 <div class="my-image">
                     <div class="my-image-place">
-                        <img
-                            src="assets/img/photo_2022-07-30_23-22-37.jpg"
-                            alt="my image"
-                            width="474"
-                            height="401">
+                        <img src="assets/img/photo_2022-07-30_23-22-37.jpg" alt="my image" width="474" height="401">
                     </div>
                 </div>
                 <div class="general-information">
@@ -60,18 +63,22 @@
                         <p class="my-main-goal-title">future full stack developer</p>
                     </div>
                 </div>
-                </section>
-                <section class="specific-information" >
-                    <div class="info-block" style="margin-bottom: 50px; margin-top: 20px;" id="summary">
-                        <h2 class="skill-subject">SUMMARY</h2>
-                        <p class="skill-subject-text">
-                            I am a student of a technical university, so from the very beginning of my studies I have been connected with programming. Due to the large amount of time spent studying various programming languages and building optimal algorithms, I managed to fall in love with this business and now I am seriously determined to develop my skills and I consider it the best step for myself to develop as an IT company employee.
-                        </p>
-                    </div>
-                    <div class="info-block" style="margin-bottom: 50px; margin-top: 20px;" id="code">
-                        <h2 class="skill-subject">CODE</h2>
-                        <pre class="code-text">
-                        <code>
+            </section>
+            <section class="specific-information">
+                <div class="info-block" style="margin-bottom: 50px; margin-top: 20px;" id="summary">
+                    <h2 class="skill-subject">SUMMARY</h2>
+                    <p class="skill-subject-text">
+                        I am a student of a technical university, so from the very beginning of my studies I have been
+                        connected with programming. Due to the large amount of time spent studying various programming
+                        languages and building optimal algorithms, I managed to fall in love with this business and now
+                        I am seriously determined to develop my skills and I consider it the best step for myself to
+                        develop as an IT company employee.
+                    </p>
+                </div>
+                <div class="info-block" style="margin-bottom: 50px; margin-top: 20px;" id="code">
+                    <h2 class="skill-subject">CODE</h2>
+                    <pre class="code-text">
+                    <code>
     function fact(x) {
         if (x == 0) { return 1; }
 
@@ -80,8 +87,7 @@
         for (var i = x; --i;) { x *= i; }
         return x;
     }
-                        </code>
-                        </pre>
+                    </code>
                     </div>
                     
                     <div class="info-block" style="height: 220px;" id="skills">
@@ -117,6 +123,19 @@
                         <h3 class="education-subject">Student of Belarusian State University of Informatics and Radioelectronics</h3>
                         <ul class="contacts-list">
                             <li class="contacts-element"> speciality - software for Information Technologies </li>
+                        </ul>
+                    </div>
+                    <div class="info-block" id="projects">
+                        <h2 class="skill-subject">PROJECTS</h2>
+                        <ul class="contacts-list">
+                            <li class="contacts-element"><a href="
+                                https://rolling-scopes-school.github.io/ihary-JSFE2022Q1/shelter/">Shelter</a></li>
+                            <li class="contacts-element"><a href="                                
+                                https://rolling-scopes-school.github.io/ihary-JSFE2022Q3/online-zoo/pages/main/">
+                                Online-zoo</a></li>
+                            <li class="contacts-element"><a href="
+                                https://rolling-scopes-school.github.io/ihary-JSFE2022Q3/gem-puzzle/">
+                                puzzle-15</a></li>
                         </ul>
                     </div>
                     <div class="info-block" id="languages">
