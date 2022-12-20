@@ -1,0 +1,256 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/RobotoThin.ttf");
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/RobotoRegular.ttf");
+    font-weight: 300;
+}
+body {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+.header {
+    margin: 0 auto;
+    /* width: 1280px; */
+    width: 100%;
+    min-height: 100px;
+    max-height: 200px;
+    /* max-width: 1280px;
+    min-width: 600px; */
+    /* border: 1px solid red; */
+    background-color: #b3b3b5;
+    display: flex;
+    /* flex-direction: ; */
+}
+
+.main {
+    margin: 0 auto;
+    width: 1280px;
+    /* border: 1px solid red; */
+    /* max-width: 1280px;
+    min-width: 600px; */
+    max-height: 1800px;
+    min-height: 1570px
+
+}
+.footer {
+
+    /* margin: 0 auto; */
+    width: 100%;
+    /* border: 1px solid red; */
+    background-color: #b3b3b5;
+    /* max-width: 1280px;
+    min-width: 600px; */
+    height: 60px;
+    padding: 60px 0 60px 0;
+    box-sizing: content-box;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.yera-footer-text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    color: #FFFFFF;
+    padding-top: 19px;
+}
+
+.footre-git-link{
+  font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.img-rs-class{
+  width: 150px;
+  height: 60px;
+  border-radius: 0%;
+}
+
+.first{
+  display: flex;
+}
+
+.second{
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link {  
+    line-height: 50px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.nav-link:hover{
+  color: #08fbff;
+}
+
+.my-image {
+    height: 500px;
+    /* width: 474px; */
+    width: 40%;
+    position: relative;
+}
+
+.my-image-place {
+    width: 474px;
+    height: 401px;
+    margin: auto 0;
+    position: absolute;
+    top: 10%;  
+}
+
+img{
+  border-radius: 41%;
+}
+
+.general-information{
+  width: 60%;
+
+}
+
+.my-name-place{
+  margin: 200px auto 0;
+  width: 50%;
+  height: 22%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.my-name-title{
+  font-size: 43px;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  
+}
+
+.my-main-goal-title{
+  font-size: 30px;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-stretch:condensed ;
+}
+
+nav{
+  margin-top: 23px;
+}
+
+.sepparate-line{
+  height: 3px;
+  width: 250px;
+  background-color: #b3b3b5;
+  /* margin: 0 auto; */
+  /* border: #b32626 solid 3px; */
+}
+
+.introduction-place{
+  display: flex;
+}
+
+.specific-information{
+  border-top: #08fbff solid 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 1000px;
+  justify-content: space-around;
+  padding-top: 15px;
+}
+
+.info-block{
+  min-width: 100px;
+  max-height: 300px;
+  width: 40%;
+  /* height: 23%; */
+  /* background-color: red; */
+  border-bottom: #08fbff solid 3px;
+
+}
+
+.skill-subject{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  /* font-style: italic; */
+  font-variant: small-caps;
+  letter-spacing: 5px;
+  padding-bottom: 10px;
+}
+
+.skill-subject-text{
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.contacts-link{
+  text-decoration: none;
+  color: #000000;
+}
+
+.contacts-list{
+  margin: 0 0 0 21.5px;
+
+}
+
+.contacts-element{
+  font-size: 20px;
+  padding-top: 5px;
+  font-family: "Roboto", sans-serif;
+}
+
+.code-text{
+  font-size: 20px;
+  
+}
+
+.education-subject{
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight:400;
+}
